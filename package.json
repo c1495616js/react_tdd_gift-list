@@ -2,6 +2,7 @@
   "name": "giftgiver",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://c1495616js.github.io/react_tdd_gift-list/",
   "dependencies": {
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.11",
