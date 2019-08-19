@@ -13,3 +13,5 @@ import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 ```
+### BDD
+![](https://i.imgur.com/BXmjmKL.png)
