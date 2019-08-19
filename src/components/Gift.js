@@ -31,12 +31,21 @@ export default class Gift extends Component {
             />
           </Form.Group>
           <Form.Group>
+            <Form.Label>
+              Present
+            </Form.Label>
             <Form.Control
               className="input-present"
               onChange={event => this.setState({ present: event.target.value })}
             />
           </Form.Group>
         </Form>
+        <Button 
+          className="btn-remove"
+          onClick={() => this.props.removeGift(this.props.gift.id)}
+        >
+          Remove Gift
+        </Button>
       </div>
     )
   }
